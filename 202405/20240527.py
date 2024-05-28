@@ -15,6 +15,43 @@ class Solution:
 
     """
 
-    def special_array(self, nums: list[int]) -> int: ...
+    def special_array(self, nums: list[int]) -> int:
+        """
+        Time Complexity: O(n^2)
+        """
+        # special = 0
+        # while True:
+        #     count = 0
+        #     for num in nums:
+        #         if num >= special:
+        #             count += 1
+        #         if count > special:
+        #             break
+
+        #     if count == special:
+        #         return special
+
+        #     special += 1
+        #     if special > 100:
+        #         return -1
+
+        """
+        Better solution pythonic
+        """
+
+        nums.sort()
+        n = len(nums)
+        for x in range(n + 1):
+            count = sum(1 for num in nums if num >= x)
+
+            if count == x:
+                return x
+
+        return -1
 
     specialArray = special_array
+
+
+sol = Solution()
+a = sol.specialArray([0, 4, 3, 4, 0])
+print(a)
