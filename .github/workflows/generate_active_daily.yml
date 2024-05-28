@@ -8,7 +8,7 @@ on:
   schedule:
   # due to the high volume of requests github has for 00:00 (or every hour)
   # it's very unlikely that this will ever run before leetcode recognizes its a new day
-  - cron: "0 9 * * *"
+  - cron: "0 0 * * *"
 
 permissions:
   contents: write
