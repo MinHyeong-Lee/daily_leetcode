@@ -178,7 +178,9 @@
    </a>
   </td>
   <td class="fri">
-   28
+   <a href="20240628.py">
+    28
+   </a>
   </td>
   <td class="sat">
    29
