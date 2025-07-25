@@ -157,7 +157,9 @@
    </a>
   </td>
   <td class="fri">
-   25
+   <a href="20250725.py">
+    25
+   </a>
   </td>
   <td class="sat">
    26
