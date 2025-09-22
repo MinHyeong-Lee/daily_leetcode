@@ -132,7 +132,9 @@
    21
   </td>
   <td class="mon">
-   22
+   <a href="20250922.py">
+    22
+   </a>
   </td>
   <td class="tue">
    23
