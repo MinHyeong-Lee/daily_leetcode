@@ -33,7 +33,6 @@ from markdownify import markdownify
 from .constants import LEETCODE_BASE_URL, TEXT_WIDTH
 from .client import query_question_of_today
 
-
 parser = argparse.ArgumentParser(
     description="Generates the current daily active challenge boilerplate file."
 )
