@@ -165,7 +165,9 @@
  </tr>
  <tr>
   <td class="sun">
-   25
+   <a href="20260125.py">
+    25
+   </a>
   </td>
   <td class="mon">
    26
