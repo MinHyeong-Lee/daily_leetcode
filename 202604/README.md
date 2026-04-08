@@ -70,7 +70,9 @@
    7
   </td>
   <td class="wed">
-   8
+   <a href="20260408.py">
+    8
+   </a>
   </td>
   <td class="thu">
    9
