@@ -1,0 +1,20 @@
+# https://leetcode.com/problems/minimum-distance-between-three-equal-elements-ii/
+
+
+class Solution:
+    """3741. Minimum Distance Between Three Equal Elements II
+
+    You are given an integer array `nums`.
+
+    A tuple `(i, j, k)` of 3 **distinct** indices is **good** if `nums[i] == nums[j] ==
+    nums[k]`.
+
+    The **distance** of a **good** tuple is `abs(i - j) + abs(j - k) + abs(k - i)`,
+    where `abs(x)` denotes the **absolute value** of `x`.
+
+    Return an integer denoting the **minimum** possible **distance** of a **good**
+    tuple. If no **good** tuples exist, return `-1`."""
+
+    def minimum_distance(self, nums: list[int]) -> int: ...
+
+    minimumDistance = minimum_distance
