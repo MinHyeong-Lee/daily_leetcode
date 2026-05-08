@@ -1,0 +1,23 @@
+# https://leetcode.com/problems/minimum-jumps-to-reach-end-via-prime-teleportation/
+
+
+class Solution:
+    """3629. Minimum Jumps to Reach End via Prime Teleportation
+
+    You are given an integer array `nums` of length `n`.
+
+    You start at index 0, and your goal is to reach index `n - 1`.
+
+    From any index `i`, you may perform one of the following operations:
+
+    * **Adjacent Step**: Jump to index `i + 1` or `i - 1`, if the index is within
+    bounds.
+
+    * **Prime Teleportation**: If `nums[i]` is a prime number `p`, you may instantly
+    jump to any index `j != i` such that `nums[j] % p == 0`.
+
+    Return the **minimum** number of jumps required to reach index `n - 1`."""
+
+    def min_jumps(self, nums: list[int]) -> int: ...
+
+    minJumps = min_jumps
